@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\bin\Debug\net5.0\RLibrary.Application.deps.json
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\bin\Debug\net5.0\RLibrary.Application.dll
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\bin\Debug\net5.0\ref\RLibrary.Application.dll
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\bin\Debug\net5.0\RLibrary.Application.pdb
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.dll
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\ref\RLibrary.Application.dll
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.pdb
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Application\obj\Debug\net5.0\RLibrary.Application.csproj.AssemblyReference.cache

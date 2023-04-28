@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLibrary.Web", "RLibrary.Web\RLibrary.Web.csproj", "{D92A49F2-FCF9-4951-B455-53B51C4CF9BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{938E3827-417F-4C45-BF96-16B290B7F801} = {938E3827-417F-4C45-BF96-16B290B7F801}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLibrary.Application", "RLibrary.Application\RLibrary.Application.csproj", "{46D746CE-1A45-4EFB-8C43-4F58DC88DF2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLibrary.Infrastructure", "RLibrary.Infrastructure\RLibrary.Infrastructure.csproj", "{938E3827-417F-4C45-BF96-16B290B7F801}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46D746CE-1A45-4EFB-8C43-4F58DC88DF2C} = {46D746CE-1A45-4EFB-8C43-4F58DC88DF2C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{997BA136-A1BD-4B63-B128-E37E2A7AD82D}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCREENSHOTS", "SCREENSHOTS", "{7537B5E2-203D-44D4-BED1-EFCB2FE922BE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\DockerRLibrary.png = ..\..\..\Desktop\DockerRLibrary.png
+		..\..\..\Desktop\localhostdocker.png = ..\..\..\Desktop\localhostdocker.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D92A49F2-FCF9-4951-B455-53B51C4CF9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92A49F2-FCF9-4951-B455-53B51C4CF9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92A49F2-FCF9-4951-B455-53B51C4CF9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92A49F2-FCF9-4951-B455-53B51C4CF9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D746CE-1A45-4EFB-8C43-4F58DC88DF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D746CE-1A45-4EFB-8C43-4F58DC88DF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D746CE-1A45-4EFB-8C43-4F58DC88DF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D746CE-1A45-4EFB-8C43-4F58DC88DF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938E3827-417F-4C45-BF96-16B290B7F801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938E3827-417F-4C45-BF96-16B290B7F801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938E3827-417F-4C45-BF96-16B290B7F801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938E3827-417F-4C45-BF96-16B290B7F801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B64279E5-C690-4209-96B9-7C7CDC234574}
+	EndGlobalSection
+EndGlobal
