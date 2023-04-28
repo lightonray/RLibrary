@@ -1,0 +1,16 @@
+﻿version: "3.9"
+
+services:
+  rlibrary:
+    image: rlibrary/rlibrary:lastest
+    container_name: thirsty_turin
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/rlibrary.db
+    networks:
+      - rlibrary-network
