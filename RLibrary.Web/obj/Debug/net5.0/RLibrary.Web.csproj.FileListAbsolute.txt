@@ -72,3 +72,4 @@ C:\Users\Administrator\source\repos\RLibrary\RLibrary.Web\bin\Debug\net5.0\Swagg
 C:\Users\Administrator\source\repos\RLibrary\RLibrary.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\Administrator\source\repos\RLibrary\RLibrary.Web\bin\Debug\net5.0\Swashbuckle.Core.dll
 C:\Users\Administrator\source\repos\RLibrary\RLibrary.Web\bin\Debug\net5.0\Swashbuckle.Examples.dll
+C:\Users\Administrator\source\repos\RLibrary\RLibrary.Web\bin\Debug\net5.0\libman.json

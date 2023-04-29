@@ -19,11 +19,11 @@ namespace RLibrary.Application.Models
         public virtual Genre Genre { get; protected internal set; }
         public virtual Price Price { get; protected internal set; }
 
-        protected Book()
+        public Book()
         {
 
         }
-        protected Book(
+        public Book(
             string title,
             string description,
             int? genreId,

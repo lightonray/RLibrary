@@ -20,12 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{997BA136
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SCREENSHOTS", "SCREENSHOTS", "{7537B5E2-203D-44D4-BED1-EFCB2FE922BE}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\DockerRLibrary.png = ..\..\..\Desktop\DockerRLibrary.png
-		..\..\..\Desktop\localhostdocker.png = ..\..\..\Desktop\localhostdocker.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

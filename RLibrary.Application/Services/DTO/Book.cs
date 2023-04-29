@@ -10,42 +10,42 @@ namespace RLibrary.Application.Services.DTO
     {
         public sealed class CreateBookDTO
         {
-            public string Title { get; }
-            public string Description { get;  }
-            public int Quanitity { get;  }
-            public int? GenreId { get;  }
-            public decimal PriceAmount { get;  }
-            public string PriceCurrency { get;  }
+            public string Title { get; set; }
+            public string Description { get; set; }
+            public int Quanitity { get; set; }
+            public int? GenreId { get; set; }
+            public decimal PriceAmount { get; set; }
+            public string PriceCurrency { get; set; }
         }
 
         public sealed class UpdateBookDTO
         {
-            public string Title { get; }
-            public string Description { get; }
-            public int Quanitity { get; }
+            public string Title { get; set; }
+            public string Description { get; set; }
+            public int Quanitity { get; set; }
         }
 
 
         public sealed class BookDetailsDTO
         {
-            public int? BookId { get; }
-            public string Title { get; }
-            public string Description { get; }
-            public int Quanitity { get; }
-            public string Price { get; }
+            public int? BookId { get; set; }
+            public string Title { get; set; }
+            public string Description { get; set; }
+            public int Quanitity { get; set; }
+            public string Price { get; set; }
         }
 
         public sealed class BookShortDTO
         {
-            public int? BookId { get; }
-            public string Title { get; }
-            public string Price { get; }
+            public int? BookId { get; set; }
+            public string Title { get; set; }
+            public string Price { get; set; }
         }
 
         public sealed class UpdateBookPriceDTO
         {
-            public decimal PriceAmount { get; }
-            public string PriceCurrency { get; }
+            public decimal PriceAmount { get; set; }
+            public string PriceCurrency { get; set; }
         }
 
     }

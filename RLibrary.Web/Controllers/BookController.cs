@@ -23,10 +23,8 @@ namespace RLibrary.Web.Controllers
             _bookService = bookService;
         }
 
-        [HttpPost("create")]
-        
-        public async Task<IActionResult> CreateBookAsync(
-         [FromBody] CreateBookDTO createBook)
+        [HttpPost("create")]     
+        public async Task<IActionResult> CreateBookAsync([FromBody] CreateBookDTO createBook)
         {
 
             var bookId = await _bookService.CreateBookAsync(createBook);
